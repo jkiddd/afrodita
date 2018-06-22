@@ -1,0 +1,44 @@
+
+.services {
+	margin-bottom: 70px;
+}
+.services__item {
+	width: 260px;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+
+.services__title {
+	font-size: 49px;
+	text-transform: capitalize;
+	font-family: 'open_bold';
+
+}
+.services__wrapp {
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	vertical-align: top;
+
+}
+.services__img {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-size: cover;
+	background-position: center;
+	width: 250px;
+	height: 160px;
+	border-radius: 5px;
+}
+.services_title {
+	font-size: 18px;
+	font-family: 'open_bold';
+}
+
+.servicrs__text{
+	font-size: 14px;
+	 margin-top: 10px;
+}	

@@ -1,0 +1,41 @@
+/*Подключаем шрифты*/
+
+@font-face {
+    font-family: 'gora';
+    src: url('../../fonts/gora-free-webfont.woff2') format('woff2'),
+    url('../../fonts/gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'open_bold';
+    src: url('../../fonts/opensans-bold-webfont.woff2') format('woff2'),
+    url('../../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: optional;
+}
+
+
+
+
+@font-face {
+    font-family: 'open_light';
+    src: url('../../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: optional;
+}
+
+
+/*Подключаем Глобальный шрифт*/
+
+body {
+    font-family: 'open_light', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.42em;
+}

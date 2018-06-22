@@ -1,0 +1,126 @@
+/*.content_img-opacity {
+    background-color: black;
+    width: 880px;
+    height: 335px;
+}
+*/
+
+
+.content__img {
+    background: url(../../img/weights-664765_1280.jpg);
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 348px;
+    background-position: center;
+   /* background-color: black;*/
+    /*opacity: .5;*/
+    background-size: cover;
+    position: relative;
+
+}
+/*накладываем тень на картинку даже если используется текс*/
+.content__img:before {
+    content: "";
+    display: block;
+    width: 880px;
+    height: 335px; 
+    opacity: 0.5;
+    background-color: black;
+}
+.content_img-text {
+      font-family: 'open_bold';
+    font-size: 57px;
+    color: #fff;
+    position: absolute;
+    left: 65px;
+    top: 155px;
+    width: 800px;
+    height: 170px;
+}
+/*приводим текст порядок*/
+.content__desc-company, .content__list, .content__text-white{
+font-size: 18px;
+line-height: 29px;
+}
+/*Позицианируем элемты главного описание и меню*/
+
+.content {
+    float: left;
+    width: 880px;
+    }
+
+.open_bold {
+	font-family: 'open_bold';
+
+}
+.content__text-list {
+    margin-left: 25px;
+}
+
+/*Добовлем точки для ul*/
+.content__item {
+ list-style: disc;
+list-style-position: inside;
+}
+
+/*варавниваем текст*/
+.content__desc-company,.content__dark-blok, .partners{
+	width: 700px;
+
+}
+.partners {
+    padding-bottom: 55px;
+}
+.content__dark-blok {
+	    margin-top: 48px;
+    margin-bottom: 83px;
+}
+.content__text-white {
+	    width: 700px;
+    background: black;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+	}
+
+/*Верстаем партнеры*/
+.partner__title {
+font-family: 'open_bold';
+font-size: 49px;
+text-transform:uppercase;
+}
+
+.partner__item {
+	display: inline-block;
+	/*padding-right: 110px;
+    padding-top: 55px;*/
+    width: 121px;
+    text-align: center;
+    margin-left: 164px;
+    margin-bottom: 45px;
+    vertical-align: middle;
+
+}
+
+.partner__img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+   
+}
+
+.partner__img:hover{
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  transition: 3s;
+}
+
+.partner__item:nth-child(3n+1){
+    margin-left: 0;
+}
+
+.partner__list {
+    margin-top: 45px;
+}

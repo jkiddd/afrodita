@@ -1,0 +1,134 @@
+.form {
+	width: 700px;
+	padding:50px 70px;
+	background-color: #f5f5f5;
+}
+
+/*стилизация формы*/
+
+
+		
+
+
+.form__title {
+	font-size: 49px;
+	font-family: 'open_bold';
+
+}
+
+form {
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+
+.form__row {
+
+}
+
+.form__title {
+	margin-bottom: 30px;
+}
+
+.form__input-element {
+	float: left;
+	display: block;	
+	width: 270px;
+}
+
+.form__input {
+	width: 265px;
+	height: 45px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+}
+
+.form__input:hover {
+
+}
+
+.form__input-element:first-child {
+	margin-right: 20px
+}
+
+.form__input:focus  {
+	border-color: black;
+  	outline: none;
+}
+
+
+.form__big-input {
+	width: 555px;
+	height: 90px;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid transparent;
+}
+.form__big-input:focus {
+	border-color: black;
+  	outline: none;
+}
+
+
+.form__control-left {
+	width: 50%;
+	float: left;
+}
+.form__btn-rigth {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.form__control-triger {
+	float: left;
+	padding-right: 15px;
+
+}
+
+/*.form__control-title {
+	padding-top: 20px;
+}*/
+.form__row {
+	padding-top: 20px;
+}
+
+.form__label-title {
+	margin-bottom: 10px;
+	display: block;
+	font-size: 14px;
+}
+.form__btn-clik {
+	 font-family: 'open_bold';
+	background-color: black;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	color: white;
+	width: 125px;
+	height: 45px;
+	text-transform:uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.frotm__contol-texttile,.form_triger-tile {
+	font-size: 14px;
+}
+/*делаем placeholder маленький шрифт*/
+
+/*.form__input:-moz-placeholder,
+.form__input::-webkit-input-placeholder {
+	font-size: 5px;
+ }
+*/
+.form__input {
+	padding: 13px 10px;
+	font-size: 14px;
+}
+
+.form__btn-clik:hover {
+	background-color: #f89513;
+	color: black;
+}

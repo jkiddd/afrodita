@@ -1,0 +1,44 @@
+.wrapper__intro {
+	background: url(../../img/background.jpg) center center no-repeat;
+	background-size: cover; 
+	height: 100%;
+	min-width: initial;
+	background-color: black;
+	text-align: center;
+	position: relative;
+}
+
+.intro {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+}
+
+.intro__logo {
+	margin-bottom: 15px;
+}
+.intro__btn-text {
+	width: 175px;
+	height: 45px;
+	border-radius: 5px;
+	color: #ffff;
+	font-family: 'open_bold';
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	border: 3px solid black;
+	text-decoration: none;
+	line-height: 45px;
+	text-align: center;
+	transition: .3s;
+}
+
+.intro__btn-text:hover {
+	background-color: #f89413;
+	border-color: #f89413;
+}

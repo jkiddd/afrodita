@@ -1,0 +1,137 @@
+.header {
+    background: black;
+}
+
+.header__logo-text {
+    font-family: 'gora';
+    color: #f89513;
+    font-size: 18px;
+}
+.header__logo-link {
+    color: #f89513;
+    text-decoration: none;
+}
+
+.header__contact {
+    display: inline-block;
+}
+.header__right {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__left-text {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header_tel-link {
+    font-family: 'open_light';
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+
+/*Шапка режим работы правого*/
+
+.header__schedule {
+    position: relative;
+    display: inline-block;
+}
+
+.header__schedule a {
+    font-family: 'open_light';
+    color: rgba(248, 149, 19, 0.7);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header__schedule:hover .contact__dropdown {
+    display: block;
+     }
+
+
+.contact__dropdown {
+    border: 1px solid white;
+    width: 160px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    z-index: 1000;
+    display: none;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+
+}
+
+
+/*заменяем не нежнуй див треугольника на пседоэлмент*/
+
+.contact__dropdown:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid white;
+    bottom: 100%;
+    position: absolute;
+    left: 100%;
+    margin-left: -24px;
+}
+
+
+/*делаем чтобы меню задерживалось после наведение в низ для это псевдоэлмент*/
+
+.contact__dropdown:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 25px;
+    left: 0;
+    right: 0;
+    top: -25px;
+}
+
+.dropdown__time {
+    color: #f89513;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.dpordown__dinner {
+    font-size: 14px;
+}
+
+/*.triangle-up {
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 10px solid transparent;
+border-bottom: 10px solid white;
+bottom: 100%;
+position: absolute;
+left: 100%;
+margin-left: -24px;
+
+
+}*/
+
+.dropdown__time--center {
+    text-align: center;
+}

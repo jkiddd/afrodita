@@ -1,0 +1,74 @@
+.nav {
+    float: left;
+    width: 180px;
+    margin-top: 34px;
+}
+.nav__item {
+    margin-bottom: 25px;
+}
+.nav__link {
+    text-decoration: none;
+}
+.nav_icon--home {
+    background:url(../../img/icons/nav_icon.png) -49px -49px no-repeat;
+    width: 19px;
+    height: 14px;
+    
+
+}
+
+.nav_icon--service {
+    background: url(../../img/icons/nav_icon.png) -92px -10px no-repeat;
+    width: 19px;
+    height: 14px;
+   
+}
+
+.nav_icon--feed {
+    background: url(../../img/icons/nav_icon.png) -10px -10px no-repeat;
+    width: 21px;
+    height: 19px;
+    
+}
+
+/* hover - начало*/
+/*.nav_icon--home:hover {
+    background:url(../../img/icons/nav_icon.png) -10px -49px no-repeat;
+    width: 19px;
+    height: 14px;
+}
+.nav_icon--service:hover {
+    background: url(../../img/icons/nav_icon.png) -92px -44px no-repeat;
+    width: 19px;
+    height: 14px;
+   
+}
+.nav_icon--feed:hover{
+    background: url(../../img/icons/nav_icon.png) -51px -10px no-repeat;
+    width: 21px;
+    height: 19px;
+    
+}*/
+/*Hover текста*/
+
+.nav__item:hover .nav_text {
+    color: black;
+    transition: 1s;
+}
+
+
+
+
+.nav__icon {
+display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.nav_text {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'open_bold';
+    color:#f89513 ;
+  }

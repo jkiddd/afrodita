@@ -1,0 +1,281 @@
+/*Подключаем шрифты*/
+
+@font-face {
+    font-family: 'gora';
+    src: url('../fonts/gora-free-webfont.woff2') format('woff2'),
+    url('../fonts/gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'open_bold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+
+
+
+@font-face {
+    font-family: 'open_light';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+
+/*Подключаем стандартные шрифт*/
+
+body {
+    font-family: 'open_light', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,body {
+    height: 100%;
+}
+/*Делаем шапку*/
+
+.header {
+    background: black;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1100px;
+    min-height: 100%;
+}
+
+/*Выравниваем по центру*/
+
+.conteiner {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+
+/*Шапка лого*/
+
+.header__logo-text {
+    font-family: 'gora';
+    color: #f89513;
+    font-size: 18px;
+}
+
+
+/*фитча на криафикс и*/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*Убираем у ul точки*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*Позицианируем по краям*/
+
+.header__right {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__left-text {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header_tel-link {
+    font-family: 'open_light';
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/*Шапка режим работы правого*/
+
+.header__schedule a {
+    font-family: 'open_light';
+    color: rgba(248, 149, 19, 0.7);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*Главный контент*/
+
+
+/*Делаем картинку прозрачным*/
+
+.content_img-opacity {
+    background-color: black;
+    width: 880px;
+    height: 335px;
+}
+
+
+/*добавляем картинку*/
+
+.content__img {
+    background: url(../img/weights-664765_1280.jpg);
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 335px;
+    background-position: center;
+   /* background-color: black;*/
+    /*opacity: .5;*/
+    background-size: cover;
+    position: relative;
+
+}
+
+.content_img-text {
+    font-family: 'open_bold';
+    font-size: 49px;
+    color:#fff;
+    position: absolute;
+    left:70px;
+    top:160px;
+    width: 800px;
+    height: 170px;
+}
+/*приводим текст порядок*/
+.content__desc-company, .content__list, .content__text-white{
+font-size: 18px;
+line-height: 29px;
+}
+/*Позицианируем элемты главного описание и меню*/
+
+.content {
+    float: right;
+    width: 880px;
+    }
+/*верстаем меню*/
+.nav {
+    float: left;
+    width: 170px;
+    margin-top: 45px;
+}
+.nav__item {
+    margin-bottom: 35px; 
+}
+.nav__link {
+    text-decoration: none;
+}
+.nav_icon--home {
+    background: url(../img/icons/nav-home-icon-active.png) 0 0 no-repeat;
+    width: 19px;
+    height: 14px;
+    
+
+}
+
+.nav_icon--service {
+    background: url(../img/icons/nav-service-icon-active.png) 0 0 no-repeat;
+    width: 19px;
+    height: 14px;
+   
+}
+
+.nav_icon--feed {
+    background: url(../img/icons/nav-feed-icon-active.png) 0 0 no-repeat;
+    width: 21px;
+    height: 19px;
+    
+}
+.nav__icon {
+display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.nav_text {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'open_bold';
+    color:#f89513 ;
+  }
+
+
+
+.open_bold {
+	font-family: 'open_bold';
+
+}
+/*Добовлем точки для ul*/
+.content__item {
+ list-style: disc;
+list-style-position: inside;
+}
+
+/*варавниваем текст*/
+.content__desc-company,.content__dark-blok, .partners{
+	width: 700px;
+}
+.content__dark-blok {
+	margin-top: 30px; 
+    margin-bottom: 70px; 
+}
+.content__text-white {
+	width: 700px;
+	background: black;
+	color: white;
+	padding-left: 30px;
+	padding-top: 10px;
+ 	padding-right: 35px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	}
+
+/*Верстаем партнеры*/
+.partner__title {
+font-family: 'open_bold';
+font-size: 49px;
+text-transform:uppercase;
+}
+
+.partner__item {
+	display: inline-block;
+	padding-right: 110px;
+    padding-top: 55px;
+    width: 120px;
+    text-align: center;
+}
+/*Делаем пседо элемент для футора чтобы текст не садился на футор*/
+.wrapper:after{
+    content: "";
+    display: block;
+    height: 75px;
+}
+
+.footer {
+    height: 75px;
+    background-color: black;
+    margin-top: -75px;
+    min-width: 1100px;
+}
+

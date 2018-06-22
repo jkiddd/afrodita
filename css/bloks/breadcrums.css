@@ -1,0 +1,38 @@
+
+.breadcrums {
+	margin-top: 34px;
+}
+ 
+
+.breadcrums__item {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+ .breadcrums__item:after {
+	content: "/";
+	display: inline-block;
+	color: #221f1f;
+	opacity: 0.8;
+	padding-left: 5px;
+}
+
+.breadcrums__link {
+    color: #f89513;
+      font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+.breadcrums_activ {
+    color: #221f1f;
+    text-decoration: none;
+}
+
+/*Убираем последнее элемент (/)*/
+.breadcrums__item:last-child:after {
+display: none;
+}
+
