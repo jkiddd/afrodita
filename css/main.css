@@ -1,4 +1,8 @@
 
+/* laout */
+@import url(../css/layout/normalize.css);
+@import url(../css/layout/fonts.css);
+@import url(../css/layout/base.css);
 /* bloks */
 @import url(../css/bloks/header.css);
 @import url(../css/bloks/nav.css);
@@ -7,14 +11,10 @@
 @import url(../css/bloks/breadcrums.css);
 @import url(../css/bloks/form.css);
 @import url(../css/bloks/paginatio.css);
-
 /*pages*/
 @import url(../css/pages/services.css);
 @import url(../css/pages/reviews.css);
 @import url(../css/pages/intro.css)
 
-/* laout */
-@import url(../css/layout/normalize.css);
-@import url(../css/layout/fonts.css);
-@import url(../css/layout/base.css);
+
 
