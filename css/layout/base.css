@@ -4,6 +4,13 @@
 
 html,body {
     height: 100%;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .wrapper {
     overflow: hidden;
@@ -19,11 +26,7 @@ html,body {
     display: block;
     clear: both;
 }
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+
 .wrapper:after{
     content: "";
     display: block;
