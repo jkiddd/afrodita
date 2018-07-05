@@ -72,11 +72,11 @@ list-style-position: inside;
     padding-bottom: 55px;
 }
 .content__dark-blok {
-	    margin-top: 48px;
+	margin-top: 48px;
     margin-bottom: 83px;
 }
 .content__text-white {
-	    width: 700px;
+	width: 700px;
     background: black;
     color: white;
     padding-left: 30px;
@@ -87,7 +87,7 @@ list-style-position: inside;
 	}
 
 /*Верстаем партнеры*/
-.partner__title {
+.title__text {
 font-family: 'open_bold';
 font-size: 49px;
 text-transform:uppercase;
